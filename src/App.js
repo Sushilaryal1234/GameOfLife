@@ -11,6 +11,7 @@ const generateEmptyBoard = () => {
 };
 
 const GameOfLife = () => {
+  const [sushil, setSushil] = useState("Sushil");
   const [board, setBoard] = useState(generateEmptyBoard());
   const [isRunning, setIsRunning] = useState(false);
 
